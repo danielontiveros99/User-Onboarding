@@ -144,7 +144,7 @@ export const Form = () => {
                     <p> {errors.email} </p>
                     <p> {errors.password} </p>
                     <div>
-                        <button disabled={btnDisabled} type='submit'>
+                        <button disabled={btnDisabled} type='submit' data-cy='button'>
                             Submit User
                         </button>
                     </div>
